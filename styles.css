@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 2em;
+  width: 80vw;
+  height: 4em;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background: linear-gradient(#e994ee, #ce6def);
+  width: 80vw;
+  height: 4em;
+  border-radius: 0 0 30px 30px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
